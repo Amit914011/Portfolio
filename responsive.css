@@ -1,0 +1,20 @@
+@media screen and (max-width:900px) {
+   
+    ul{
+        display: none;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .menu-icon i{
+        display: block;
+    }
+}
+@media screen and (max-width:430px){
+    .about-section{
+        order: 2 !important;
+    }
+    .image-section{
+        order: 1 !important;
+    }
+}
